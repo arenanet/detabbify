@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Browserify transform to strip tabs from bundles",
   "main": "index.js",
+  "repository": "arenanet/detabbify",
+  "bugs": {
+    "url": "https://github.com/arenanet/detabbify/issues"
+  },
   "scripts": {
     "test": "tape test/*.js | tap-difflet"
   },
