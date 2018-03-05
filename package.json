@@ -1,6 +1,6 @@
 {
   "name": "detabbify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Browserify transform to strip tabs from bundles",
   "main": "index.js",
   "repository": "arenanet/detabbify",
