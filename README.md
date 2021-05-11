@@ -1,7 +1,6 @@
 detabbify [![NPM Version](https://img.shields.io/npm/v/detabbify.svg)](https://www.npmjs.com/package/detabbify) [![Build Status](https://img.shields.io/travis/arenanet/detabbify/master.svg)](https://travis-ci.org/arenanet/detabbify)
 ===========
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/arenanet/detabbify.svg)](https://greenkeeper.io/)
 <p align="center">
     <a href="https://www.npmjs.com/package/detabbify" alt="NPM License">
         <img src="https://img.shields.io/npm/l/detabbify.svg" />

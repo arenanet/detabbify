@@ -1,6 +1,0 @@
-{
-    "preset" : "arenanet",
-    "excludeFiles" : [
-        "coverage/**"
-    ]
-}
