@@ -1,7 +1,7 @@
 # detabbify
 
 [![NPM Version](https://img.shields.io/npm/v/detabbify.svg)](https://www.npmjs.com/package/detabbify)
-[![test](https://github.com/arenanet/detabbify/actions/workflows/push-test.yml/badge.svg)](https://github.com/arenanet/detabbify/actions/workflows/push-test.yml)
+[![test](https://github.com/arenanet/detabbify/actions/workflows/test.yml/badge.svg)](https://github.com/arenanet/detabbify/actions/workflows/test.yml)
 [![license: MIT](https://img.shields.io/npm/l/detabbify.svg)](https://github.com/arenanet/detabbify/blob/master/package-lock.json)
 [![downloads](https://img.shields.io/npm/dm/detabbify.svg)](https://www.npmjs.com/package/detabbify)
 
