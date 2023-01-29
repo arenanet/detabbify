@@ -1,20 +1,10 @@
-detabbify [![NPM Version](https://img.shields.io/npm/v/detabbify.svg)](https://www.npmjs.com/package/detabbify) [![Build Status](https://img.shields.io/travis/arenanet/detabbify/master.svg)](https://travis-ci.org/arenanet/detabbify)
-===========
+# detabbify
 
-<p align="center">
-    <a href="https://www.npmjs.com/package/detabbify" alt="NPM License">
-        <img src="https://img.shields.io/npm/l/detabbify.svg" />
-    </a>
-    <a href="https://www.npmjs.com/package/detabbify" alt="NPM Downloads">
-        <img src="https://img.shields.io/npm/dm/detabbify.svg" />
-    </a>
-    <a href="https://david-dm.org/arenanet/detabbify" alt="Dependency Status">
-        <img src="https://img.shields.io/david/arenanet/detabbify.svg" />
-    </a>
-    <a href="https://david-dm.org/arenanet/detabbify#info=devDependencies" alt="devDependency Status">
-        <img src="https://img.shields.io/david/dev/arenanet/detabbify.svg" />
-    </a>
-</p>
+[![NPM Version](https://img.shields.io/npm/v/detabbify.svg)](https://www.npmjs.com/package/detabbify)
+[![Build Status](https://img.shields.io/travis/arenanet/detabbify/master.svg)](https://travis-ci.org/arenanet/detabbify)
+[![license: MIT](https://img.shields.io/npm/l/detabbify.svg)](https://github.com/arenanet/detabbify/blob/master/package-lock.json)
+[![downloads](https://img.shields.io/npm/dm/detabbify.svg)](https://www.npmjs.com/package/detabbify)
+
 
 Replace tabs with spaces when running files through browserify.
 
@@ -28,7 +18,7 @@ Configure how many spaces each `\t` character will be replaced with. Defaults to
 
 ### CLI
 
-```
+```console
 // Recommended to run globally
 $ browserify ./file-with-spaces.js -g detabbify ./output.js
 
