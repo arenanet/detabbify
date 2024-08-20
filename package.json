@@ -1,6 +1,6 @@
 {
   "name": "detabbify",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Browserify transform to strip tabs from bundles",
   "main": "index.js",
   "repository": "arenanet/detabbify",
@@ -28,8 +28,8 @@
   "devDependencies": {
     "browserify": "^17.0.0",
     "concat-stream": "^2.0.0",
-    "eslint": "^7.26.0",
-    "eslint-config-arenanet": "^5.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-arenanet": "^5.11.2",
     "from2-string": "^1.1.0",
     "tape": "^5.2.2",
     "tape-catch": "^1.0.6"

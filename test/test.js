@@ -14,11 +14,9 @@ test("exports", function(t) {
 });
 
 test("defaults", function(t) {
-    let str;
-
     t.plan(1);
 
-    str = detabbify("./fake.js");
+    const str = detabbify("./fake.js");
 
     str.pipe(concat(function(out) {
         t.equal(out.toString(), "    ", "Should replace \t with 4 spaces");
@@ -29,11 +27,9 @@ test("defaults", function(t) {
 });
 
 test("options", function(t) {
-    let str;
-
     t.plan(1);
 
-    str = detabbify("./fake.js", { spaces : 2 });
+    const str = detabbify("./fake.js", { spaces : 2 });
 
     str.pipe(concat(function(out) {
         t.equal(out.toString(), "  ", "Should replace \t with 2 spaces");
@@ -44,7 +40,7 @@ test("options", function(t) {
 });
 
 test("browserify", function(t) {
-    let build = browserify({
+    const build = browserify({
             entries : from("\t'hello';")
         });
 
@@ -58,7 +54,7 @@ test("browserify", function(t) {
 });
 
 test("browserify + options", function(t) {
-    let build = browserify({
+    const build = browserify({
             entries : from("\t'hello';")
         });
 
